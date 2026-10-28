@@ -22,7 +22,7 @@ The generated SDK is large, so it is not stored in git. Download the full projec
 
 ## Writing your own code
 
-See `STRATUM_CPP_GUID.md` in the [stratum-rust](https://github.com/a-s-l-a-h/stratum-sys) repo. It documents the Java-to-Cpp mapping and rules, and you can hand it to an LLM to generate app code.
+See `STRATUM_CPP_GUID.md` in the [stratum-sys](https://github.com/a-s-l-a-h/stratum-sys) repo. It documents the Java-to-Cpp mapping and rules, and you can hand it to an LLM to generate app code.
 
 ## Status
 
