@@ -1,0 +1,203 @@
+*.iml
+.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+local.properties
+
+
+# ==============================================================================
+#  STRATUM UNIVERSAL / ANDROID C++ DEMO — .gitignore
+# ==============================================================================
+
+# ------------------------------------------------------------------------------
+# 1. Stratum Generated / Vendored Folder
+# ------------------------------------------------------------------------------
+# If you want Git to completely ignore the packaged Stratum folder
+# (uncomment the line below if you generate/copy it during build):
+# app/src/main/cpp/stratum/
+
+# If you DO commit `stratum/`, ignore its local build & temporary artifacts:
+app/src/main/cpp/stratum/.cxx/
+app/src/main/cpp/stratum/build/
+app/src/main/cpp/stratum/CMakeCache.txt
+app/src/main/cpp/stratum/CMakeFiles/
+app/src/main/cpp/stratum/cmake_install.cmake
+/stratum/*
+stratum/*
+
+
+# ------------------------------------------------------------------------------
+# 1. Stratum & Heavy Folders (DO NOT COMMENT OUT)
+# ------------------------------------------------------------------------------
+**/stratum/
+app/src/main/cpp/stratum/
+fullcode/
+
+# ------------------------------------------------------------------------------
+# 2. Android Studio & Gradle
+# ------------------------------------------------------------------------------
+.gradle/
+**/.gradle/
+build/
+**/build/
+.cxx/
+**/.cxx/
+local.properties
+
+# ------------------------------------------------------------------------------
+# 3. C++ / CMake / Object Files
+# ------------------------------------------------------------------------------
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+*.ninja
+*.ninja_deps
+*.ninja_log
+*.o
+*.obj
+*.so
+*.a
+
+# ------------------------------------------------------------------------------
+# 4. IDE & OS Artifacts
+# ------------------------------------------------------------------------------
+.idea/
+**/.idea/
+*.iml
+.DS_Store
+Thumbs.db
+
+# ------------------------------------------------------------------------------
+# 2. Android Studio & Gradle
+# ------------------------------------------------------------------------------
+.gradle/
+build/
+*/build/
+app/build/
+stratum-runtime/build/
+
+# Local device / SDK configuration (contains private machine paths)
+local.properties
+
+# Captures and profiling
+captures/
+.externalNativeBuild/
+.cxx/
+*/.cxx/
+app/.cxx/
+
+# APKs, Bundles, and Mapping files
+*.apk
+*.aab
+*.ap_
+output.json
+
+# Proguard / R8 mapping files
+proguard/
+**/build/outputs/mapping/
+
+# ------------------------------------------------------------------------------
+# 3. C++ / CMake / NDK Build Outputs
+# ------------------------------------------------------------------------------
+# Ninja / CMake temporary files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+*.ninja
+*.ninja_deps
+*.ninja_log
+compile_commands.json
+
+# Compiled binaries and object files
+*.o
+*.obj
+*.so
+*.a
+*.dll
+*.dylib
+
+# ------------------------------------------------------------------------------
+# 4. IDE & Editor Artifacts
+# ------------------------------------------------------------------------------
+# Android Studio / IntelliJ IDEA
+.idea/
+*.iml
+*.ipr
+*.iws
+.idea_modules/
+
+# VS Code
+.vscode/
+*.code-workspace
+
+# OS Specific
+.DS_Store
+Thumbs.db
+ehthumbs.db
+[Nn]anobind*
+
+# ------------------------------------------------------------------------------
+# 5. App Runtime Data (From native-lib.cpp persistence tests)
+# ------------------------------------------------------------------------------
+todos.txt
+notes.txt
+
+
+
+
+
+
+
+
+
+
+
+
+# ── Stratum cpp demo (Android Studio project) ────────────────────────────────
+
+# Gradle / Android Studio
+.gradle/
+.idea/
+*.iml
+local.properties
+build/
+app/build/
+stratum-runtime/build/
+captures/
+.externalNativeBuild/
+.cxx/
+app/.cxx/
+*.apk
+*.aab
+*.keystore
+*.jks
+
+
+app/src/main/jniLibs/
+
+
+# Generated SDK: shipped as a zip on the GitHub Releases page, not in git.
+# Download it and unzip into the project root (see README).
+app/src/main/cpp/stratum/
+app/src/main/cpp/stratum
+
+
+# Dumps made for sharing code with LLMs
+fullcode/
+
+# OS
+.DS_Store
+Thumbs.db
+
+
