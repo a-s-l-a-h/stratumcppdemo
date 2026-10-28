@@ -13,7 +13,7 @@ You do **not** need either repo to run this demo. The generated SDK files (the e
 
 ## Quick start (no setup)
 
-The generated SDK is large, so it is not stored in git. Download the full project from the **[Releases page](https://github.com/a-s-l-a-h/stratumrustdemo/releases#release-v0_01-tag)**:
+The generated SDK is large, so it is not stored in git. Download the full project from the **[Releases page](https://github.com/a-s-l-a-h/stratumcppdemo/releases#release-v0_01-tag)**:
 
 1. Download `stratumcppdemo.zip` (the demo project with the generated Rust crate and engine already included).
 2. Unzip, open the folder in Android Studio, let Gradle sync, press **Run**.
