@@ -1,6 +1,6 @@
 # Stratum Rust Demo
 
-A multi-screen Android app written **Cpp** . It drives the real Android SDK (views, sensors, canvas, clipboard, files) through the **Stratum Cpp SDK**.
+A multi-screen Android app written **in Cpp** . It drives the real Android SDK (views, sensors, canvas, clipboard, files) through the **Stratum Cpp SDK**.
 
 ## Built on
 
